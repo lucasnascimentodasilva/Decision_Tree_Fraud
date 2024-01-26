@@ -1,0 +1,15 @@
+﻿estabelecimento,valor,regiao,limite,resultado
+ruim,alto,sul,até 1000,fraude
+desconhecido,alto,sul,Maior que 1000 e menor que 5000,não fraude
+desconhecido,baixo,sul,maior que 5000,fraude
+desconhecido,alto,sul,maior que 5000,fraude
+desconhecido,alto,sul,maior que 5000,fraude
+desconhecido,baixo,nordeste,Maior que 1000 e menor que 5000,não fraude
+ruim,baixo,norte,Maior que 1000 e menor que 5000,fraude
+ruim,baixo,nordeste,maior que 5000,fraude
+boa,baixo,norte,Maior que 1000 e menor que 5000,não fraude
+boa,alto,nordeste,maior que 5000,fraude
+boa,alto,norte,maior que 5000,fraude
+boa,alto,norte,até 1000,fraude
+boa,alto,norte,até 1000,não fraude
+ruim,alto,norte,Maior que 1000 e menor que 5000,não fraude
