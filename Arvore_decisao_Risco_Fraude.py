@@ -39,7 +39,6 @@ with open('risco_fraude.pkl', 'rb') as f:
     X_risco_fraude, y_risco_fraude = pickle.load(f)
 
 # Decision Tree | Criterios e Visualização
-    
 arvore_risco_fraude = DecisionTreeClassifier(criterion='entropy')
 arvore_risco_fraude.fit(X_risco_fraude, y_risco_fraude)
 arvore_risco_fraude.feature_importances_
@@ -48,6 +47,5 @@ figura, eixos = plt.subplots(nrows=1, ncols=1, figsize=(10,10))
 tree.plot_tree(arvore_risco_fraude, feature_names=previsores, class_names = arvore_risco_fraude.classes_, filled = True);
 
 #Submetendo novos casos a árvore
-
 previsoes = arvore_risco_fraude.predict([[2,0,2,2],[1,1,0,0],[0,0,1,1],[1,1,1,1]])
 previsoes
